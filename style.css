@@ -1,0 +1,18 @@
+body { font-family: Arial; margin: 0; background-color: whitesmoke; }
+.header { background-color: rgb(229, 21, 142); color: white; text-align: center; padding: 30px; }
+.header a { color: white; margin: 10px; }
+#about { text-align: center; padding: 50px; }
+#projects { text-align: center; padding: 50px; }
+.project { display: inline-block; width: 200px;
+background-color: white;
+
+margin: 10px;
+padding: 20px;
+
+border: 1px solid gray;
+}
+#contact { text-align: center; padding: 50px; }
+.footer { background-color: rgb(130, 13, 180); color: white;
+text-align: center;
+padding: 15px;
+}
