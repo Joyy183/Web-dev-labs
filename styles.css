@@ -1,0 +1,48 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f4f0ff;
+  font-family: Arial, sans-serif;
+  color: #302b42;
+}
+.greeting-card {
+  width: min(90%, 380px);
+  padding: 32px 26px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(65, 45, 100, 0.12);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+h1 { margin: 0 0 12px; color: #6246a5; }
+.hint, .tip { font-size: 13px; color: #777087; }
+.name-form { display: flex; gap: 8px; margin: 22px 0; }
+input {
+  min-width: 0;
+  flex: 1;
+  padding: 11px;
+  border: 1px solid #d5cbe9;
+  border-radius: 8px;
+}
+button {
+  padding: 11px 13px;
+  border: 0;
+  border-radius: 8px;
+  background: #7353bd;
+  color: white;
+  cursor: pointer;
+}
+button:hover { background: #593c9e; }
+ul { padding: 0; margin: 0; list-style: none; }
+li {
+  padding: 11px;
+  margin: 9px 0;
+  background: #f2edfc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+li:hover { background: #e3d8fa; }
+.tip { margin-bottom: 0; }
